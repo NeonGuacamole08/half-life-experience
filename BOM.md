@@ -12,10 +12,9 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| [ESPRESSIF ESP32-C3-MINI-1-N4](https://www.lcsc.com/product-detail/C2838502.html) | Wi-Fi/BLE to read sensors on the probe and transmit data to the handheld unit. | 1 | $3.06 | $3.06 | [LCSC](https://www.lcsc.com/product-detail/C2838502.html) |
 | [TI ADS1115IDGSR](https://www.lcsc.com/product-detail/C37593.html) | 16-bit precision ADC to measure minute voltage changes from electrochemical metal and pH sensors | 3 | $1.23 | $3.69 | [LCSC](https://www.lcsc.com/product-detail/C37593.html) |
-| **Parts subtotal** | — | — | — | **$6.75** | — |
+| **Parts subtotal** | — | — | — | **$3.69** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$6.75** | — |
+| **Total** | — | — | — | **$3.69** | — |
 
-$23.25 left of the tier's funding.
+$26.31 left of the tier's funding.
