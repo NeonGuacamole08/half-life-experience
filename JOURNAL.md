@@ -4,9 +4,9 @@
 <!-- Generated: 2026-10-11T22:18:15.092Z -->
 
 > [!NOTE]
-> This devlog is mirrored from [Half Life](https://halflife.hackclub.com). Editing it here will not change the platform's copy, and the next sync overwrites this file.
+> This devlog is mirrored from [Half Life](https://halflife.hackclub.com) – [open the project](https://halflife.hackclub.com/projects/cmuvogqmz01el01o9hlfogy6r). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> A tiny motion-controlled digital pet, basically a desktop Tamagotchi. Totally not a Starboy.
+> A tiny motion-controlled digital pet, basically a desktop Tamagotchi. Totally not a Starboy. I made mine look like Toad from Mario!
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
