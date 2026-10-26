@@ -63,3 +63,7 @@ To have access to the 3d render clink on this:
 ## DONE DONE DONEE
 <img width="561" height="410" alt="image" src="https://github.com/user-attachments/assets/e5b3c491-52c6-4693-8599-403334bf9c56" />
 
+
+### BOM 
+Item,Qty,Supplier,Cost/item,Total Cost,link
+Estimated total shipping,1,,,$0.00,
