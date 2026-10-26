@@ -14,7 +14,7 @@ This will allow you to choose components like sensors or boards. For this specif
 ### To upload power symbols like gnds and volts batter, click the letter P
 <img width="537" height="407" alt="image" src="https://github.com/user-attachments/assets/f2ad5c7a-4be0-41a3-a182-44d7438e2526" />
 This will allow you to make connections.
-### To name or raher precise how certain parts will be soldered or connected, click the letter L
+### To name or rather specify how certain parts will be soldered or connected, click the letter L
 <img width="820" height="457" alt="image" src="https://github.com/user-attachments/assets/d32f82df-1d30-4eb2-b683-ae572229d5ee" />
 
 Since Starbie is a handheld digital pet, we need more than just the motherboard. 
@@ -30,7 +30,7 @@ Wire them like this
 ### Assign Footprints 
 <img width="366" height="108" alt="image" src="https://github.com/user-attachments/assets/7c84c6be-4fcb-4fa7-a80d-66d6aa39bcdc" />
 
-It should lead you to a pop up like so, match the sensors like
+It should lead you to a pop-up like so; match the sensors like
 <img width="593" height="290" alt="image" src="https://github.com/user-attachments/assets/e9e406f4-4dd6-4bc5-8405-7bfae5500420" />
 
 ##  THE PCB
@@ -39,10 +39,10 @@ Once all the components are connected, we can start assigning footprints to the 
 
 
 To make the PCB, you can actually just convert your schematic into the alignment parts by clicking on the <img width="285" height="56" alt="image" src="https://github.com/user-attachments/assets/b819bb4b-2d21-45d7-b39e-863f1d3f7d73" />
-This allows you to work directly on your PCB! Then you need to come up with the shape of your board. I wanted mine to look like Toad, but I suck at drawing, so I used to Reference images options:
+This allows you to work directly on your PCB! Then you need to come up with the shape of your board. I wanted mine to look like Toad, but I suck at drawing, so I used the reference image options:
 <img width="417" height="420" alt="image" src="https://github.com/user-attachments/assets/7a448919-67cd-4dc2-a32e-778d9586156b" />
 <img width="431" height="287" alt="image" src="https://github.com/user-attachments/assets/3553df17-b4eb-4f05-a05e-28fdd30a249b" />
-Then, using the edge cuts on layers, you can then use the draw polygons to draw the approximate shape of your board.
+Then, using the edge cuts on layers, you can use the Draw Polygons tool to draw the approximate shape of your board.
 <img width="390" height="271" alt="image" src="https://github.com/user-attachments/assets/08334fe3-625f-400b-a218-1a8e818b277b" />
 
 Then you need to route your PCB so that all the connections are linked. To do that select the F.cu  layer
@@ -54,16 +54,22 @@ Then click on any blue lines to fill them. You can also click on F for  the conn
 You can access it via the button on the top right:
 <img width="300" height="71" alt="image" src="https://github.com/user-attachments/assets/a0a6194f-510a-439e-af4d-07f6a5780db0" />
 
-Then click on run DRC to run the analysis 
+Then click on Run DRC to run the analysis 
 <img width="772" height="485" alt="image" src="https://github.com/user-attachments/assets/059ebbdf-31a0-434c-a4e2-262b975efaee" />
 
-To have access to the 3d render clink on this:
+To have access to the 3d render, click on this:
 <img width="578" height="64" alt="image" src="https://github.com/user-attachments/assets/d9e27107-6ffc-4bc9-8541-c1e3fc894031" />
 
 ## DONE DONE DONEE
 <img width="561" height="410" alt="image" src="https://github.com/user-attachments/assets/e5b3c491-52c6-4693-8599-403334bf9c56" />
 
 
-### BOM 
-Item,Qty,Supplier,Cost/item,Total Cost,link
-Estimated total shipping,1,,,$0.00,
+## Bill of Materials (BOM)
+
+| Item | Qty | Supplier | Cost/item | Total Cost | Link |
+| :--- | :---: | :--- | ---: | ---: | :--- |
+| **AS7262 Visible Spectrometer Breakout**<br><sub>Reads 6 visible channels (450nm–650nm) via I2C (A4/A5). Detects early chlorosis/leaf stress.</sub> | 1 | Adafruit | $24.95 | $24.95 | [Link](https://www.adafruit.com/product/3779) |
+| **Capacitive Soil Moisture Sensor v1.2**<br><sub>Measures water content</sub> | 1 | DFRobot | $3.00 | $3.00 | [Link](https://www.dfrobot.com/product-1385.html) |
+| **MAX485 TTL to RS485 Transceiver Module**<br><sub>Converts RS485 Modbus signal from industrial soil probes into serial data Arduino can read</sub> | 1 | DFRobot | $2.50 | $2.50 | [Link](https://www.dfrobot.com/product-1024.html) |
+| **Estimated total shipping** | 1 | — | — | $0 | — |
+| **Total** | | | | **$30.45** | |
